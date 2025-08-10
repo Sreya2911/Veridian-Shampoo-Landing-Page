@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right:100px;
+}
+
+.search-bar {
+    padding: 8px 15px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+    padding:10px;
+    background-color: rgb(255, 255, 255)
+}
+
+.cart-icon {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #070707;
+    cursor: pointer;
+    padding:10px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 100px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-family: "Birthstone", cursive;
+}
+
+.sub{
+    font-family:"Merriweather", serif;
+    font-size: 50px;
+}
+.slogan{
+    font-size: 100px;
+}
+
+.shopnow {
+    border: solid;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.shopnow:hover{
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+#products{
+    background-color: black;
+    color:white;
+    display: flex;
+    padding: 30px;
+}
+
+.bottle{
+    height: 450px;
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+}   
+
+.why{
+    font-family:"Birthstone", cursive;
+    font-size: 100px;
+    color: #f5d0d8;
+}
+.feature-box {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.feature-box p {
+  flex: 0 1 40%; 
+  min-width: 300px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.one:hover{
+    background-color: #f5d0d888;
+    border-radius: 5px;
+
+}
+.two:hover{
+    background-color:#f5d0d888;
+    border-radius: 5px;
+}
+.three:hover{
+    background-color:#f5d0d888;
+    border-radius: 5px;
+}
+.four:hover{
+    background-color:#f5d0d888;
+    border-radius: 5px;
+}
+
+.section-testimonials{
+    padding: 60px;
+    background-color: white;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.what{
+    font-size:100px;
+    font-family:"Birthstone", cursive;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+  gap: 30px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.review-card {
+  background-color: #000000;
+  border-radius: 12px;
+  padding: 8px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color:#f5d0d8;
+  font-family:"Merriweather", serif;
+  text-align: left;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px #1b1b1b;
+  align-items: center;
+}
+
+.review-card p {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #f5d0d8;;
+  align-items: center;
+}
+
+.review-card span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f5d0d8;;
+  align-items: center;
+}
+
+footer{
+    padding: 20px;
+    color:#f5d0d8;
+    background-color: #000000;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    cursor: pointer;
+}
+.section-testimonials {
+    position: relative;
+    padding: 60px;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.section-testimonials .bg-video-testimonials {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 1;
+}
+
+.bestseller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+  padding: 80px;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.bestseller-left {
+  flex: 1;
+}
+
+.bestseller-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bestseller-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.bestseller-heading {
+  font-size: 80px;
+  color: #f5d0d8;
+  font-family: "Birthstone", cursive;
+  text-align: right;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bestseller-content {
+  font-size: 28px;
+  color: white;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  line-height: 1.5;
+  justify-content: center;
+}
+
+#contact {
+  padding: 100px;
+  font-size: xx-large;
+  background-image: url(media/pinkbg2.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: black; 
+  text-align: center;
+  background-repeat: no-repeat;
+  font-family: "Merriweather", serif;
+  
+}
